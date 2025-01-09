@@ -25,7 +25,7 @@ class ProxySettings {
   @override
   String toString() {
     if (username != null || password != null) {
-      return '$username:$username@$host:$port';
+      return '$username:$password@$host:$port';
     } else {
       return '$host:$port';
     }
